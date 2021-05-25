@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Check</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>System Check</h1>
+    <div class="wrapper">
+        <button onclick="version()">OS Version</button>
+        <button onclick="operatingSytem()">Operating System Name
+        </button>
+        <button onclick="devisedetect()"> Detect Device </button>
+    <div class="info">
+        <p>OS Version: <span id="OS"></span></p>
+        <p>You are using: <span id="OS-Name"></span></p>
+        <p>Your Device is: <span id="device"></span></p>
+    </div>
+        
+       
+    </div>
+    <script src="app.js"></script>
+    <script src="mobile-detect.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
