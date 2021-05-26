@@ -13,22 +13,26 @@
 
 <body>
     <header>
-       <h1>System Check</h1>
-       <div class="wrapper">
-            <button onclick="version()" class="btn">OS Version</button>
+        <h1>System Check</h1>
+        <div class="wrapper">
             <button onclick="operatingSytem()" class="btn">Operating System Name
             </button>
-            <button onclick="devisedetect()" class="btn"> Detect Device </button>
-        <div class="info">
-            <p><i class="fa fa-code-fork" aria-hidden="true"> OS Version:</i><span id="OS"></span></p>
-            <p><i class="fa fa-window-maximize" aria-hidden="true"> You are using:</i> <span id="OS-Name"></span></p>
-            <p><i class="fa fa-tablet" aria-hidden="true"> Your Device is:</i><span id="device"></span></p>
+            <button onclick="version()" class="btn">OS Version</button>
+            <button onclick="devisedetect()" class="btn">Detect Device </button>
+            <button onclick="geocode.getLocation()" class="btn">Find Your location: </button>
+            <div class="info">
+                <p><i class="fa fa-window-maximize" aria-hidden="true"> 
+                You are using:  </i> <span id="OS-Name"></span>
+                </p>
+                <p><i class="fa fa-code-fork" aria-hidden="true"> OS Version: </i><span id="OS"></span></p>
+                <p><i class="fa fa-tablet" aria-hidden="true"> Your Device is:   </i><span id="device"></span></p>
+                <p>Your Location is: <span id="getlocation"></span></p>
+            </div>
         </div>
-     </div>
-     <script src="app.js"></script>
-     <script src="mobile-detect.js"></script>
-     <script src="index.js"></script>
-   </header>
+        <script src="app.js"></script>
+        <script src="mobile-detect.js"></script>
+        <script src="index.js"></script>
+    </header>
 </body>
 
 </html>

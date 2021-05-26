@@ -7,7 +7,7 @@
 }
 
 header{
-	background:url(images/check.jpg)no-repeat center center fixed;
+	background:url(images/Back-img.jpg)no-repeat center center fixed;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
@@ -15,7 +15,6 @@ header{
 }
 
 body{
- 	width:95%;
   	margin:40px 35px;
 	background-color:#fff;
 	padding:15px;
@@ -45,6 +44,7 @@ h1{
     border-radius: 8px;
     box-shadow: 0 3px 3px 3px rgba(0,0,0,0.1);
     color:#fff;
+    outline: none;
     background-color:#0e4690;
 	
 }
@@ -54,7 +54,7 @@ h1{
 }
 button{
   padding: .4rem;
-  margin: 1rem .8rem
+  margin: 1rem .8rem;
   transition-duration: 0.4s;
   border: none;
   color: white;
@@ -78,3 +78,4 @@ span{
 p{
     padding:12px;
 }
+
